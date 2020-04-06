@@ -4,7 +4,7 @@ console.log('app');
 var count = [10,20,30,40,50,60,70,100];
 function average(array){
     var sum=0;
-    for(var i=0;i<array.length;i++)
+    for(var a=0;i<array.length;i++)
     {
       sum = sum + array[i];
     }
@@ -31,13 +31,12 @@ function gugudan(i){
     console.log(gugudan(a));
 
 
-var person = {
-    nick: 'jiyeon',
-    age: 24,
-    area: 'jeju',
-    hobby: ['game', 'sleep'],
-  };
-console.log(person.nick);
+    var ab={};
+    ab.a=1;
+    ab.b=2;
+    ab.sum=function() {console.log(ab.a+ab.b);};
+    ab.sum();
+
 
 
 var result = 0;
@@ -52,3 +51,4 @@ while (true) {
     result += parseInt(value);
     
 }
+*/
