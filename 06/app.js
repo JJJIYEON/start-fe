@@ -4,12 +4,7 @@ var a = 'aaa';
 let b = 'aa';
 const c = "bb";
 console.log(a,b,c);  
-
-
 // 요새는 모든 변수를 선언할 때 const를 사용하여 작성을 함 --> 패러다임 변화, let은 for구문이나 기타 등등에 사용한다
-
-
-
 var str = 'aaaaaaa \
 dsfdf';
 
