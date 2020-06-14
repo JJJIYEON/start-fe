@@ -1,5 +1,5 @@
 export default {
   id: '',
-  isDone: false,
   text: '',
+  isDone: false,
 };

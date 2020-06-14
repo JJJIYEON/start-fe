@@ -1,10 +1,3 @@
-# todo-webapp-2020
+# Todo List 만들기
 
-## 개발 
-
-```
-$ git clone git@github.com:advanced-webapps-class/todo-webapp-2020.git
-$ cd todo-webapp-2020
-$ npm install
-$ npm start
-```
+> 간단한 Todo 리스트 관리 웹어플리케이션을 만들어 본다

@@ -1,10 +1,11 @@
 {
-  "name": "todo-webapp-2020",
+  "name": "todo-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "> 간단한 Todo 리스트 관리 웹어플리케이션을 만들어 본다",
+  "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open",
-    "build": "webpack"
+    "build": "webpack && cp dist/* ../docs"
   },
   "devDependencies": {
     "css-loader": "^3.5.3",
@@ -16,12 +17,14 @@
     "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "^2.7.1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.16.1"
+    "http-server": "^0.12.3",
+    "json-server": "^0.16.1",
+    "rollup": "^2.15.0"
   }
 }
