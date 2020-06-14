@@ -8,6 +8,7 @@ module.exports = {
   },
   devServer: {
     contentBase: './dist',
+    hot: true,
   },
   plugins: [
     new HtmlWebpackPlugin({

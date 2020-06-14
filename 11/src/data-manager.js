@@ -7,5 +7,4 @@ function loadData() {
   const dataString = localStorage.getItem('data') || '[]';
   return JSON.parse(dataString);
 }
-
 export { saveData, loadData };
